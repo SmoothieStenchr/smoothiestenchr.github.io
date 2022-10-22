@@ -1,0 +1,47 @@
+body {
+  font-weight: bolder;
+  background-color: #888888;
+}
+
+p {
+  font-size: 20px;
+  font-family: "Trebuchet MS";
+  font-style: italic;
+}
+
+h1 {
+  color: #0112fc;
+  font-family: "Verdana";
+}
+
+h2 {
+  color: #0112fc;
+  font-family: "Verdana";
+}
+
+h3 { 
+  font-size: 25px;
+  font-family: "Trebuchet MS";
+}
+
+img {
+  float: right;
+  width: 161px;
+  height: 161px;
+}
+
+.tropic-freeze {
+  color: #e3a71b;
+}
+
+.red-delicious {
+  color: #e80621;
+}
+
+.coco-choco {
+  color: #7a5335;
+}
+
+.sweetie {
+  color: #42c8f0;
+}
