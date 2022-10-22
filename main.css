@@ -7,6 +7,7 @@ p {
   border: 15px;
   border-color: #32cd32;
   border-style: outset;
+  border-radius: 20px;
   background-color: black;
   font-size: 20px;
   font-family: "Trebuchet MS";
