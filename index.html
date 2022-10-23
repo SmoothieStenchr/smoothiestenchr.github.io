@@ -10,9 +10,14 @@
   font-weight: bolder;
   background-color: #888888;
 }
-@keyframes m1 {from{left:-30%;opacity:0}to{left:0px;}}
-@keyframes m2 {from{transform:rotatez(15deg) translate(0px,130px);opacity:0}to{left:0px;}}
-@keyframes m3 {0%{transform:perspective(300px);opacity:0;}20%{transform:perspective(300px) rotatey(-200deg);opacity:0}to{left:0px;}}
+@keyframes m1 {
+  from{left:-30%;opacity:0}to{left:0px;}}
+@keyframes m2 {
+  from{transform:rotatez(15deg) translate(0px,130px);opacity:0}to{left:0px;}}
+@keyframes m3 {
+  0%{transform:perspective(300px);opacity:0;}20%{transform:perspective(300px) rotatey(-200deg);opacity:0}to{left:0px;}
+}
+
 .card1 {
   animation:m1 1s;
   position:relative;
@@ -38,9 +43,9 @@
   width:fit-content;
   animation:m3 2s;
   position:relative;
-  }
+}
   
-  @media (min-width: 600px) {
+@media (min-width: 600px) {
   .card2 { grid-template-columns: repeat(1, 1fr); }
   .card1 {max-width:5100px;}
 }
@@ -49,27 +54,31 @@
   .card2 { grid-template-columns: repeat(2, 1fr); }
   .card1 {max-width:500px;}
 }
-  .card2
-  {background-color:rgba(0,0,0,0.1);
+
+.card2 {
+  background-color:rgba(0,0,0,0.1);
   border-radius:15px;
   padding:5px;
   margin-left:5px;
   margin-right:5px;
   display:grid;
   column-gap:10%;
-  }
-a.link{
-text-decoration: none!important;
-color:#0112fc;
 }
-a.link:hover{
-text-decoration: none!important;
-color:#424fff;
+
+a.link {
+  text-decoration: none!important;
+  color:#0112fc;
 }
+
+a.link:hover {
+  text-decoration: none!important;
+  color: #424fff;
+}
+
 h1 {
   animation:m2 0.8s;
   position:relative;
-  color:#0112fc;
+  color: #0112fc;
   font-family: Verdana;
 }
 
@@ -80,7 +89,9 @@ h2 {
   font-family: Verdana;
 }
 
-p {font-size: 25px;font-family: Trebuchet MS;}
+p {
+  font-size: 25px;font-family: Trebuchet MS;
+}
 
 img {
   float: right;
@@ -90,7 +101,7 @@ img {
 }
 
 .tropic-freeze {
-  color:#e3a71b;
+  color: #e3a71b;
 }
 
 .red-delicious {
@@ -109,7 +120,7 @@ img {
           <br>
       <h2>(Side note: To make these smoothies, add ice to the ingredients, then blend on your blender's "Smoothie" setting.)</h2>
           <br>
-	<p class="gallery-link"><a class="link" href="smoothiestenchr.github.io/galleries">Smoothie Galleries</a></p>
+	<p class="gallery-link"><a class="link" href="/galleries">Smoothie Galleries</a></p>
 	   <div class="card2">
 	     <div class="card3">
         <p class="tropic-freeze">1. Tropical Freeze</p>
