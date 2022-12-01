@@ -1,2 +1,2 @@
 # smoothiestenchr.github.io
-Smothie recipies, duh
+Smothie recipies, duhh
