@@ -45,6 +45,7 @@ body {
   .card2 { grid-template-columns: repeat(1, 1fr); }
   .card1 {max-width: 5100px;}
   h1 {font-size:50px;}
+  .h1 {font-size:50px;}
   h2 {font-size:34px;}
   p {font-size:30px;}
   b {font-size:24px;}
@@ -55,6 +56,7 @@ body {
   .card2 { grid-template-columns: repeat(2, 1fr); }
   .card1 {max-width: 500px;}
   h1 {font-size:36px;}
+  .h1 {font-size:36px;}
   h2 {font-size:24px;}
   p {font-size:25px;}
   b {font-size:20px;}
@@ -86,6 +88,20 @@ h1 {
   position: relative;
   color: #0112fc;
   font-family: Verdana;
+}
+.h1 {
+  animation: m2 0.8s;
+  position: relative;
+  color: #0112fc;
+  cursor: pointer;
+  padding: 0px;
+  font-family: Verdana;
+  background-color: transparent; border-color: transparent;
+  font-weight: bold;
+}
+
+.h1:hover {
+  color: #0165fc;
 }
 
 h2 {
@@ -126,4 +142,4 @@ img {
 
 .smoothie6 {
   color: #990Fe1;
-} 
+}
