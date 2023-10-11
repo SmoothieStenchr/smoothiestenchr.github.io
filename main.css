@@ -73,6 +73,28 @@ body {
   column-gap: 10%;
 }
 
+.card3 {
+  animation: m1 1s;
+  position: center;
+  border: limegreen 20px outset;
+  border-radius: 20px;
+  background-color: black;
+  font-size: 20px;
+  font-family: Trebuchet MS;
+  font-style: italic;
+  display: block;
+  max-width: 500px;
+  overflow: auto;
+  color: limegreen;
+  padding: 5px;
+  box-shadow: 5px 5px rgba(0,0,0,0.4);
+}
+.card3:hover {
+  transform: scale(1.05);
+  border: lime 20px outset;
+}
+
+
 a.link {
   text-decoration: none!important;
   color: #0112fc;
