@@ -1,106 +1,748 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <title>101 Smoothie Recipes</title>
     <link rel="icon" type="image/x-icon" href="favicon.png">
     <link rel="stylesheet" href="main.css">
-  </head>
-  <body>
-    <h1 id="id2">Smoothies 101<span><button onclick="document.getElementById('demo').innerHTML = 'Diced Pickles (~14 g.)<br>Peanuts (~9½ g.)<br>Condensed Chicken Broth (~⅜ cup)<br>Eggs (2 yolks)<br>Barbecue Sauce (~3 ml.)';document.getElementById('demo2').innerHTML = '6. Prank (NEW!)';document.getElementById('id1').innerHTML = '';document.getElementById('id2').innerHTML = 'Smoothies 101: Secret flavor unlocked! Check Banana Bliss!<br>101 Smoothies'" class="h1" id="id1">:</button></span><br>101 Smoothies</h1>
-          <br>
-    <h2>(Side note: To make these smoothies, add ice and xanthan gum (¼ tsp.) to the ingredients, then blend until extremely smooth-looking with no visible chunks.)</h2>
-          <br>
-	<p class="gallery-link"><a class="link" href="/galleries">Smoothie Galleries</a></p>
-	   <div class="card2">
-	     <div class="card3">
-        <p class="tropic-freeze">1. Tropical Freeze</p>
-          <div class="tropic-freeze card1">
-            <img src="tropic-freeze.png" alt="Tropical Freeze">
-              <b>Mango Juice<br>
+</head>
+
+<body>
+    <h1 id="id2">Smoothies 101<span><button onclick="document.getElementById('demo').innerHTML = 'Diced Pickles (14 g.)<br>Peanuts (9½ g.)<br>Condensed Chicken Broth (⅜ cup)<br>Eggs (2 yolks)<br>Barbecue Sauce (3 ml.)<br>Gasoline (2 cups)';document.getElementById('demo2').innerHTML = '6. Prank (NEW!)';document.getElementById('id1').innerHTML = '';document.getElementById('id2').innerHTML = 'Smoothies 101: Secret flavor unlocked! Check Banana Bliss!<br>101 Smoothies';document.getElementById('prank').src='prank.png'" class="h1" id="id1">:</button></span><br>101 Smoothies</h1>
+    <br>
+    <h2>(Side note: To make these smoothies, add ice and xanthan gum (¼ tsp.) to the ingredients, then blend until extremely smooth-looking with no visible chunks. Each recipe makes 1 serving, you can scale them up to make more.)</h2>
+    <br>
+    <p class="gallery-link"><a class="link" href="/galleries">Smoothie Galleries</a></p>
+    <div class="card2">
+	<div class="card3">
+            <p class="tropic-freeze">1. Tropical Freeze</p>
+            <div class="tropic-freeze card1">
+                <img src="tropic-freeze.png" alt="Tropical Freeze">
+                <b>Mango Juice<br>
                 Orange Juice<br>
                 Lemon Juice<br>
                 Pineapple Juice</b>
             </div>
-          </div>
-	 <div>
-        <p class="red-delicious">2. Red Delicious</p>
-          <div class="red-delicious card1">
-            <img src="red-delicious.png" alt="Red Delicious">
-            <b>Apple Juice (⅔ cup)<br>
-	     Cranberry Juice (⅔ cup)<br>
-	     Apple Slices (½ apple)</b>
-            </div>
-          </div>
+        </div>
         <div>
-          <p class="coco-choco">3. CocoChoco</p>
+            <p class="red-delicious">2. Red Delicious</p>
+            <div class="red-delicious card1">
+                <img src="red-delicious.png" alt="Red Delicious">
+                <b>Apple Juice (⅔ cup)<br>
+    Cranberry Juice (⅔ cup)<br>
+    Apple Slices (½ apple)</b>
+            </div>
+        </div>
+        <div>
+            <p class="coco-choco">3. CocoChoco</p>
             <div class="coco-choco card1">
-              <img src="coco-choco.png" alt="CocoChoco">
-              <b>Crème de Coconut (20 g.)<br>
+                <img src="coco-choco.png" alt="CocoChoco">
+                <b>Crème de Coconut (20 g.)<br>
               Chocolate Syrup (20 g.)<br>
 	       Chocolate Protein Powder (2 Tbsp.)<br>
               Milk (¼ cup)<br>
               Water (¼ cup)</b>
             </div>
-          </div>
-          <div>
-        <p class="coconut-apple-crumble">4. Coconut Apple Crumble</p>
-          <div class="coconut-apple-crumble card1">
-            <img src="coconut-apple-crumble.png" alt="Coconut Apple Crumble">
-            <b>Apple Slices (½ apple)<br>
-	     Coconut Milk (1 cup)<br>
-	     Lime Juice (½ lime)<br>
-	     Crema di Pumpkin Pie (1 tsp.)<br>
-	     Cinnamon (¼ tsp.)<br>
-	     Pumpkin Pie Spice (¼ tsp.)</b>
+        </div>
+        <div>
+            <p class="coconut-apple-crumble">4. Coconut Apple Crumble</p>
+            <div class="coconut-apple-crumble card1">
+                <img src="coconut-apple-crumble.png" alt="Coconut Apple Crumble">
+                <b>Apple Slices (½ apple)<br>
+    Coconut Milk (1 cup)<br>
+    Lime Juice (½ lime)<br>
+    Crema di Pumpkin Pie (1 tsp.)<br>
+    Cinnamon (¼ tsp.)<br>
+    Pumpkin Pie Spice (¼ tsp.)</b>
             </div>
-          </div>
-       <div>
-        <p class="smoothie5">5. TBD</p>
-          <div class="smoothie5 card1">
-            <img src="smoothie5.png" alt="TBD">
-              <b>insert recipe here</b>
+        </div>
+        <div>
+            <p class="smoothie5">5. TBD</p>
+            <div class="smoothie5 card1">
+                <img src="smoothie5.png" alt="TBD">
+                <b>insert recipe here</b>
             </div>
-          </div>
-       <div>
-        <p class="banana-bliss" id="demo2">6. Banana Bliss</p>
-          <div class="banana-bliss card1">
-            <img src="banana-bliss.png" alt="Banana Bliss">
-              <!--<b>Diced Pickles (14 g.)<br>
+        </div>
+        <div>
+            <p class="banana-bliss" id="demo2">6. Banana Bliss</p>
+            <div class="banana-bliss card1">
+                <img id="prank" src="banana-bliss.png" alt="Banana Bliss">
+                <!--<b>Diced Pickles (14 g.)<br>
                 Peanuts (9½ g.)<br>
                 Condensed Chicken Broth (⅜ cup)<br>
                 Eggs (2 yolks)<br>
-                Barbecue Sauce (3 ml.)-->
-               <b id="demo">insert recipe here</b>
+                Barbecue Sauce (3 ml.)<br>
+		Gasoline (2 cups)-->
+                <b id="demo">insert recipe here</b>
             </div>
-          </div>
-	   <div>
-          <p class="smoothie7">7. TBD</p>
-            <div class="smoothie7 card1">
-              <img src="smoothie7.png" alt="TBD">
-              <b>insert recipe here</b>
-            </div>
-          </div>
-	   <div>
-          <p class="smoothie8">8. TBD</p>
-            <div class="smoothie8 card1">
-              <img src="smoothie8.png" alt="TBD">
-              <b>insert recipe here</b>
-            </div>
-          </div>
-	   <div>
-          <p class="smoothie9">9. TBD</p>
-            <div class="smoothie9 card1">
-              <img src="smoothie9.png" alt="TBD">
-              <b>insert recipe here</b>
-            </div>
-          </div>
-	   <div>
-          <p class="smoothie10">10. TBD</p>
-            <div class="smoothie10 card1">
-              <img src="smoothie10.png" alt="TBD">
-              <b>insert recipe here</b>
-            </div>
-          </div>
         </div>
-  </body>
+        <div>
+            <p class="smoothie7">7. TBD</p>
+            <div class="smoothie7 card1">
+                <img src="smoothie7.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie8">8. TBD</p>
+            <div class="smoothie8 card1">
+                <img src="smoothie8.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie9">9. TBD</p>
+            <div class="smoothie9 card1">
+                <img src="smoothie9.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie10">10. TBD</p>
+            <div class="smoothie10 card1">
+                <img src="smoothie10.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie11">11. TBD</p>
+            <div class="smoothie11 card1">
+                <img src="smoothie11.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie12">12. TBD</p>
+            <div class="smoothie12 card1">
+                <img src="smoothie12.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie13">13. TBD</p>
+            <div class="smoothie13 card1">
+                <img src="smoothie13.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie14">14. TBD</p>
+            <div class="smoothie14 card1">
+                <img src="smoothie14.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie15">15. TBD</p>
+            <div class="smoothie15 card1">
+                <img src="smoothie15.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie16">16. TBD</p>
+            <div class="smoothie16 card1">
+                <img src="smoothie16.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie17">17. TBD</p>
+            <div class="smoothie17 card1">
+                <img src="smoothie17.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie18">18. TBD</p>
+            <div class="smoothie18 card1">
+                <img src="smoothie18.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie19">19. TBD</p>
+            <div class="smoothie19 card1">
+                <img src="smoothie19.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie20">20. TBD</p>
+            <div class="smoothie20 card1">
+                <img src="smoothie20.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie21">21. TBD</p>
+            <div class="smoothie21 card1">
+                <img src="smoothie21.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie22">22. TBD</p>
+            <div class="smoothie22 card1">
+                <img src="smoothie22.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie23">23. TBD</p>
+            <div class="smoothie23 card1">
+                <img src="smoothie23.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie24">24. TBD</p>
+            <div class="smoothie24 card1">
+                <img src="smoothie24.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie25">25. TBD</p>
+            <div class="smoothie25 card1">
+                <img src="smoothie25.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie26">26. TBD</p>
+            <div class="smoothie26 card1">
+                <img src="smoothie26.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie27">27. TBD</p>
+            <div class="smoothie27 card1">
+                <img src="smoothie27.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie28">28. TBD</p>
+            <div class="smoothie28 card1">
+                <img src="smoothie28.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie29">29. TBD</p>
+            <div class="smoothie29 card1">
+                <img src="smoothie29.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie30">30. TBD</p>
+            <div class="smoothie30 card1">
+                <img src="smoothie30.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie31">31. TBD</p>
+            <div class="smoothie31 card1">
+                <img src="smoothie31.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie32">32. TBD</p>
+            <div class="smoothie32 card1">
+                <img src="smoothie32.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie33">33. TBD</p>
+            <div class="smoothie33 card1">
+                <img src="smoothie33.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie34">34. TBD</p>
+            <div class="smoothie34 card1">
+                <img src="smoothie34.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie35">35. TBD</p>
+            <div class="smoothie35 card1">
+                <img src="smoothie35.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie36">36. TBD</p>
+            <div class="smoothie36 card1">
+                <img src="smoothie36.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie37">37. TBD</p>
+            <div class="smoothie37 card1">
+                <img src="smoothie37.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie38">38. TBD</p>
+            <div class="smoothie38 card1">
+                <img src="smoothie38.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie39">39. TBD</p>
+            <div class="smoothie39 card1">
+                <img src="smoothie39.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie40">40. TBD</p>
+            <div class="smoothie40 card1">
+                <img src="smoothie40.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie41">41. TBD</p>
+            <div class="smoothie41 card1">
+                <img src="smoothie41.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie42">42. TBD</p>
+            <div class="smoothie42 card1">
+                <img src="smoothie42.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie43">43. TBD</p>
+            <div class="smoothie43 card1">
+                <img src="smoothie43.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie44">44. TBD</p>
+            <div class="smoothie44 card1">
+                <img src="smoothie44.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie45">45. TBD</p>
+            <div class="smoothie45 card1">
+                <img src="smoothie45.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie46">46. TBD</p>
+            <div class="smoothie46 card1">
+                <img src="smoothie46.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie47">47. TBD</p>
+            <div class="smoothie47 card1">
+                <img src="smoothie47.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie48">48. TBD</p>
+            <div class="smoothie48 card1">
+                <img src="smoothie48.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie49">49. TBD</p>
+            <div class="smoothie49 card1">
+                <img src="smoothie49.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie50">50. TBD</p>
+            <div class="smoothie50 card1">
+                <img src="smoothie50.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie51">51. TBD</p>
+            <div class="smoothie51 card1">
+                <img src="smoothie51.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie52">52. TBD</p>
+            <div class="smoothie52 card1">
+                <img src="smoothie52.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie53">53. TBD</p>
+            <div class="smoothie53 card1">
+                <img src="smoothie53.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie54">54. TBD</p>
+            <div class="smoothie54 card1">
+                <img src="smoothie54.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie55">55. TBD</p>
+            <div class="smoothie55 card1">
+                <img src="smoothie55.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie56">56. TBD</p>
+            <div class="smoothie56 card1">
+                <img src="smoothie56.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie57">57. TBD</p>
+            <div class="smoothie57 card1">
+                <img src="smoothie57.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie58">58. TBD</p>
+            <div class="smoothie58 card1">
+                <img src="smoothie58.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie59">59. TBD</p>
+            <div class="smoothie59 card1">
+                <img src="smoothie59.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie60">60. TBD</p>
+            <div class="smoothie60 card1">
+                <img src="smoothie60.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie61">61. TBD</p>
+            <div class="smoothie61 card1">
+                <img src="smoothie61.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie62">62. TBD</p>
+            <div class="smoothie62 card1">
+                <img src="smoothie62.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie63">63. TBD</p>
+            <div class="smoothie63 card1">
+                <img src="smoothie63.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie64">64. TBD</p>
+            <div class="smoothie64 card1">
+                <img src="smoothie64.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie65">65. TBD</p>
+            <div class="smoothie65 card1">
+                <img src="smoothie65.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie66">66. TBD</p>
+            <div class="smoothie66 card1">
+                <img src="smoothie66.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie67">67. TBD</p>
+            <div class="smoothie67 card1">
+                <img src="smoothie67.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie68">68. TBD</p>
+            <div class="smoothie68 card1">
+                <img src="smoothie68.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie69">69. TBD</p>
+            <div class="smoothie69 card1">
+                <img src="smoothie69.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie70">70. TBD</p>
+            <div class="smoothie70 card1">
+                <img src="smoothie70.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie71">71. TBD</p>
+            <div class="smoothie71 card1">
+                <img src="smoothie71.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie72">72. TBD</p>
+            <div class="smoothie72 card1">
+                <img src="smoothie72.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie73">73. TBD</p>
+            <div class="smoothie73 card1">
+                <img src="smoothie73.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie74">74. TBD</p>
+            <div class="smoothie74 card1">
+                <img src="smoothie74.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie75">75. TBD</p>
+            <div class="smoothie75 card1">
+                <img src="smoothie75.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie76">76. TBD</p>
+            <div class="smoothie76 card1">
+                <img src="smoothie76.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie77">77. TBD</p>
+            <div class="smoothie77 card1">
+                <img src="smoothie77.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie78">78. TBD</p>
+            <div class="smoothie78 card1">
+                <img src="smoothie78.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie79">79. TBD</p>
+            <div class="smoothie79 card1">
+                <img src="smoothie79.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie80">80. TBD</p>
+            <div class="smoothie80 card1">
+                <img src="smoothie80.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie81">81. TBD</p>
+            <div class="smoothie81 card1">
+                <img src="smoothie81.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie82">82. TBD</p>
+            <div class="smoothie82 card1">
+                <img src="smoothie82.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie83">83. TBD</p>
+            <div class="smoothie83 card1">
+                <img src="smoothie83.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie84">84. TBD</p>
+            <div class="smoothie84 card1">
+                <img src="smoothie84.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie85">85. TBD</p>
+            <div class="smoothie85 card1">
+                <img src="smoothie85.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie86">86. TBD</p>
+            <div class="smoothie86 card1">
+                <img src="smoothie86.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie87">87. TBD</p>
+            <div class="smoothie87 card1">
+                <img src="smoothie87.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie88">88. TBD</p>
+            <div class="smoothie88 card1">
+                <img src="smoothie88.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie89">89. TBD</p>
+            <div class="smoothie89 card1">
+                <img src="smoothie89.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie90">90. TBD</p>
+            <div class="smoothie90 card1">
+                <img src="smoothie90.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie91">91. TBD</p>
+            <div class="smoothie91 card1">
+                <img src="smoothie91.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie92">92. TBD</p>
+            <div class="smoothie92 card1">
+                <img src="smoothie92.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie93">93. TBD</p>
+            <div class="smoothie93 card1">
+                <img src="smoothie93.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie94">94. TBD</p>
+            <div class="smoothie94 card1">
+                <img src="smoothie94.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie95">95. TBD</p>
+            <div class="smoothie95 card1">
+                <img src="smoothie95.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie96">96. TBD</p>
+            <div class="smoothie96 card1">
+                <img src="smoothie96.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie97">97. TBD</p>
+            <div class="smoothie97 card1">
+                <img src="smoothie97.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie98">98. TBD</p>
+            <div class="smoothie98 card1">
+                <img src="smoothie98.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie99">99. TBD</p>
+            <div class="smoothie99 card1">
+                <img src="smoothie99.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie100">100. TBD</p>
+            <div class="smoothie100 card1">
+                <img src="smoothie100.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+        <div>
+            <p class="smoothie101">101. TBD</p>
+            <div class="smoothie101 card4">
+                <img src="smoothie101.png" alt="TBD">
+                <b>insert recipe here</b>
+            </div>
+        </div>
+	</div>
+
+</body>
+
 </html>
