@@ -73,7 +73,7 @@ body {
   column-gap: 10%;
 }
 
-.card3 {
+.card4 {
   animation: m1 1s;
   position: center;
   border: limegreen 20px outset;
@@ -89,7 +89,7 @@ body {
   padding: 5px;
   box-shadow: 5px 5px rgba(0,0,0,0.4);
 }
-.card3:hover {
+.card4:hover {
   transform: scale(1.05);
   border: lime 20px outset;
 }
